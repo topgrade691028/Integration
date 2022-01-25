@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: white;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+.mt-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.float-left {
+  font-size: 20px;
+  color: green;
+  font-weight: 600;
+}
+.text-muted {
+  margin-left: 30px;
+  font-size: 20px;
+  color: grey;
+  font-weight: 650;
+}
+.dai_input {
+  width: 300px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+.input-group-text {
+  font-size: 20px;
+}
+.submit_Button {
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.mb-3 {
+  margin-bottom: 30px;
+}
+.balance_table {
+  margin-top: 50px;
+  font-size: 25px;
+  width: 30vw;
+}
